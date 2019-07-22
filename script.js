@@ -45,4 +45,3 @@ function game() {
   console.log("Player: " + playerWins + "\n" + "Computer: " + computerWins + "\nTied: " + (5-playerWins-computerWins));
   alert("Player: " + playerWins + "\n" + "Computer: " + computerWins + "\nTied: " + (5-playerWins-computerWins));
 }
-//game();
