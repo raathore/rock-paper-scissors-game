@@ -1,4 +1,4 @@
-# Rock, Paper, Scissors Game
+# Rock, Paper, Scissors Game!
 A game written as an excersize for The Odin Project.
 ## Languages
 HTML+CSS+JAVASCRIPT
