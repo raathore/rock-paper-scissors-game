@@ -1,0 +1,39 @@
+<html>
+
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+
+<head>
+  <title>Rock, Paper, Scissors!</title>
+</head>
+
+<body>
+
+  <h1>Rock, Paper, Scissors Game!</h1>
+
+  <div id="view">
+    <img id="winView" class="hide" src="images/win.gif">
+    <img id="loseView" class="hide" src="images/lose.png">
+  </div>
+
+  <div id="start">
+    <h2>Select your weapon.</h2>
+    <img onclick="playRound('rock')" src="images/rock.jpeg">
+    <img onclick="playRound('paper')" src="images/paper.jpeg">
+    <img onclick="playRound('scissors')" src="images/scissors.jpeg">
+  </div>
+
+  <form id="results">
+    <h2 id="text">Human-vs-Computer, best of 5 wins!</h2>
+    <h3>Round: <span id="roundCount">0</span><h3>
+    <div id="scores">
+      <p>You: <span id="playerWins">0</span></p>
+      <p>Computer: <span id="computerWins">0</span></p>
+      <p>Tie: <span id="tied">0</span></p>
+    </div><br>
+    <button onclick="resetButton()">Reset</button>
+  </form>
+
+</body>
+
+</html>
