@@ -2,7 +2,7 @@
   text-align: center;
   color: #505050;
   font-family: sans-serif;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
 }
 h1{
   margin-top: 50px;
