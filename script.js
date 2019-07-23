@@ -60,7 +60,6 @@ function gamecheck() {
       text.textContent = "Horray! You win 5 rounds!";
       showResult("winView");
       hidePlay("start");
-
     }
     if (computer == 5) {
       text.textContent = "Oh no! Computer wins 5 rounds!";
