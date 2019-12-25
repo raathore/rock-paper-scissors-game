@@ -45,15 +45,16 @@ h1{
   visibility: hidden;
 }
 button {
-  background-color: #e5e5e5;
+  background-color: #008CBA;
   border:none;
   height: 40px;
   width: 100px;
-  border-radius:2px;
+  border-radius: 4px;
   font-size: 18px;
 }
 button:hover{
-  border: 1px solid #c5c5c5;
+  background-color: #FFFFFF;
+  border: 1px solid #008CBA;
   cursor: pointer;
 }
 button:focus{
