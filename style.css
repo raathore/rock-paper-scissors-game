@@ -47,6 +47,7 @@ h1{
 button {
   background-color: #008CBA;
   border:none;
+  color: #FFFFFF;
   height: 40px;
   width: 100px;
   border-radius: 4px;
@@ -55,6 +56,7 @@ button {
 button:hover{
   background-color: #FFFFFF;
   border: 1px solid #008CBA;
+  color: #008CBA;
   cursor: pointer;
 }
 button:focus{
