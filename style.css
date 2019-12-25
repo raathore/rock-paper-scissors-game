@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap");
+
 *{
   text-align: center;
   color: #505050;
-  font-family: sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 h1{
